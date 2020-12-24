@@ -39,9 +39,7 @@ span.skills-heading, span.heading-abilities, h1.contact-heading, h3.contact-subh
     padding-bottom: 80px;
     margin-bottom: 0;
 }
-
 /*intro page*/
-
 section.intro {
     background-image: url("img/background2.png");
     padding-top: 3rem;
@@ -77,7 +75,6 @@ p.intro-text {
     padding-right: 40%;
     padding-bottom: 9rem;
     margin-bottom: 0;
-    /*добавить выравнивание текста и подлатать размер*/
 }
 /*what u will get*/
 section.skills {
@@ -118,10 +115,14 @@ span.heading-abilities {
 }
 img.icon {
     width: 100%;
+    min-width: 30%;
     min-height: 250px;
 }
 h5.card-title, p.card-text, p.contact-text {
     font-size: 20px;
+}
+a.btn-link {
+    text-decoration: none;
 }
 /*contacts*/
 section.contact {
@@ -147,8 +148,28 @@ div.contact-1 {
 
 /*responsive*/
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     div.card {
         margin-bottom: 20px;
+    }
+    section.intro, section.skills, section.abilities {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    p.intro-text, section.contact {
+        padding-right: 10px;
+    }
+    .heading {
+        text-align: center;
+        padding: 20px 30px 20px 30px;
+    }
+    ul.list {
+        padding-left: 70%;
+    }
+    div.container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: inline;
     }
 }
