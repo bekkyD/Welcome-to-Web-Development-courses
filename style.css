@@ -1,0 +1,154 @@
+body.body {
+    font-family: 'Playfair Display', serif;
+}
+section.intro, section.skills, section.abilities {
+    padding-left: 8rem;
+}
+.welcome-page, section.intro, section.contact {
+    background-repeat: no-repeat;
+}
+.welcome-page, section.intro {
+    background-position: center;
+    background-size: cover;
+}
+.heading, .subheading, h1.contact-heading {
+    color: #ffffff;
+}
+.subheading, h3.contact-subheading {
+    text-transform: uppercase;
+}
+span.skills-heading, span.heading-abilities, h1.contact-heading, h3.contact-subheading {
+    font-weight: bold;
+}
+/*welcome page*/
+.welcome-page {
+    background-image: url("img/background-image.gif");
+}
+.heading, .subheading {
+    text-align: center;
+}
+.heading {
+    font-family: 'Dancing Script', cursive;
+    font-size: 250px;
+    padding: 5% 20% 5% 20%;
+}
+.subheading {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 100;
+    font-size: 100px;
+    padding-bottom: 80px;
+    margin-bottom: 0;
+}
+
+/*intro page*/
+
+section.intro {
+    background-image: url("img/background2.png");
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+h1.intro-heading, h2.intro-subheading, h3.intro-fb {
+    padding-bottom: 1rem;
+}
+h1.intro-heading {
+    color: #7c2ae8;
+    font-size: 5rem;
+}
+h2.intro-subheading, span.skills-heading, h5.card-title, p.card-text, p.intro-text {
+    color: #7d7b7b;
+}
+h3.intro-fb {
+    font-family: 'Pacifico', cursive;
+    color: #ff7948;
+}
+div.sub-intro, span.skills-heading, span.heading-abilities {
+    text-align: left;
+}
+img.intro-img {
+    width: 25%;
+    height: auto;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+p.intro-text {
+    font-style: italic;
+    font-size: 28px;
+    padding-right: 40%;
+    padding-bottom: 9rem;
+    margin-bottom: 0;
+    /*добавить выравнивание текста и подлатать размер*/
+}
+/*what u will get*/
+section.skills {
+    background-image: url("img/background3.png");
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+}
+span.skills-heading {
+    font-size: 50px;
+    padding-right: 30px;
+}
+ul.list, span.heading-abilities, h3.contact-subheading, p.contact-text {
+    color: #471a66;
+}
+ul.list {
+    font-size: 28px;
+    padding-left: 50%;
+}
+/*what u could you*/
+section.abilities, section.contact {
+    padding-right: 8rem;
+
+}
+section.abilities {
+    background-color: #efefef;
+    padding-top: 130px;
+}
+span.heading-abilities {
+    font-size: 50px;
+    padding-right: 50px;
+}
+.row {
+    padding-top: 60px;
+    padding-bottom: 130px;
+}
+.card-body {
+    min-height: 200px;
+}
+img.icon {
+    width: 100%;
+    min-height: 250px;
+}
+h5.card-title, p.card-text, p.contact-text {
+    font-size: 20px;
+}
+/*contacts*/
+section.contact {
+    background-image: url("img/background4.png");
+    background-size: cover;
+}
+h1.contact-heading, div.contact-content {
+    text-align: right;
+}
+h1.contact-heading {
+    font-size: 50px;
+    padding-top: 60px;
+}
+h3.contact-subheading {
+    font-size: 30px;
+}
+div.contact-content {
+    padding-bottom: 80px;
+}
+div.contact-1 {
+    padding-top: 120px;
+}
+
+/*responsive*/
+
+@media (max-width: 1000px) {
+    div.card {
+        margin-bottom: 20px;
+    }
+}
